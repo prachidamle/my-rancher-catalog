@@ -1,2 +1,24 @@
 myService:
   scale: 2
+  questions:
+     - name: "BLAH",
+       description: "decsription",
+       type: "enum"
+       options: 
+        - option1
+        - option2
+
+
+
+
+
+   
+
+
+
+
+
+       
+
+
+
