@@ -1,0 +1,18 @@
+myService:
+ scale: 2
+ questions:
+  - name: What is Question1?
+    description: This is Question1
+    type: string
+  - name: What is Question2?
+    description: This is Question2
+    type: int
+  - name: What is Question3?
+    description: This is Question3
+    type: boolean
+  - name: What is Question4?
+    description: This is Question4
+    type: enum
+    options:
+     - option1
+     - option2
