@@ -1,16 +1,17 @@
 myService:
  scale: 2
+.stack:
  questions:
-  - name: What is Question1?
+  - label: What is Question1?
     description: This is Question1
     type: string
-  - name: What is Question2?
+  - label: What is Question2?
     description: This is Question2
     type: int
-  - name: What is Question3?
+  - label: What is Question3?
     description: This is Question3
     type: boolean
-  - name: What is Question4?
+  - label: What is Question4?
     description: This is Question4
     type: enum
     options:
