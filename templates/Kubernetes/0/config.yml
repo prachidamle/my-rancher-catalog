@@ -2,4 +2,3 @@ name: Kubernetes
 version: 1.1
 description: Manage a cluster of Linux containers
 category: Orchestration
-uuid: 0b48f56a-ce2c-4e3c-aec9-1e1c4cb1136f
