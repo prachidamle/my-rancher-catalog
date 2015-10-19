@@ -1,6 +1,6 @@
 elasticsearch-clients:
  scale: 1
-.catalog 
+.catalog:
  name: 1.3
  version: 1.3
  description: This is the next version
