@@ -4,7 +4,7 @@ myService:
  name: 1.2
  version: 1.2
  description: This is the default stable version
-uuid: b3b06150-6db0-44f4-9198-c8724dbb0e1d
+ uuid: b3b06150-6db0-44f4-9198-c8724dbb0e1d
  questions:
   - label: What is Question1?
     description: This is Question1
