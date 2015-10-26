@@ -1,5 +1,5 @@
 myService:
- scale: 2
+ scale: 3
 .catalog:
  name: 1.2
  version: 1.2
