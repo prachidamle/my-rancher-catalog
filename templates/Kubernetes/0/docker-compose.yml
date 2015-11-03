@@ -3,3 +3,4 @@ myService:
   tty: true
   image: ubuntu:14.04.2
   stdin_open: true
+  scale: 2
