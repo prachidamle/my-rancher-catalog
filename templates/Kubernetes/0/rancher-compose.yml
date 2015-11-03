@@ -1,1 +1,2 @@
-
+myService:
+ scale: 3
