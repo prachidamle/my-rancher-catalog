@@ -5,7 +5,7 @@ myService:
  version: 1.2
  description: This is the default stable version
  uuid: b3b06150-6db0-44f4-9198-c8724dbb0e1d
- minimumRancherVersion: 0.20.0
+ minimumRancherVersion: v0.20.0
  questions:
   - label: What is Question1?
     description: This is Question1
