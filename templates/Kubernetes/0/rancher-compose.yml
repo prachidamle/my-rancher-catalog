@@ -1,5 +1,4 @@
 myService:
  scale: 3
 .catalog:
- minimumRancherVersion: 0.44.0
-uuid: kubernetes-0
+ uuid: kubernetes-0
