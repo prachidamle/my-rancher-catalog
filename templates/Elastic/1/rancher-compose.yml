@@ -5,7 +5,7 @@ elasticsearch-clients:
  version: 1.3
  description: This is the next version
  uuid: dfac9a26-bc93-4e0b-8251-479260a7b42b
- minimumRancherVersion: 0.44.1
+ minimumRancherVersion: v0.44.1
  questions:
   - name: What is Question1?
     description: This is Question1
