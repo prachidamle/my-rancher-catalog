@@ -1,6 +1,0 @@
-myService:
-  restart: always
-  tty: true
-  image: ubuntu:14.05.20
-  stdin_open: true
-  scale: 2
