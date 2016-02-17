@@ -24,4 +24,3 @@ myService:
      - option2
  output:
   url: http://${stack["mycoolservice"].fqdn}:8080
-Status API Training Shop Blog About Pricing
