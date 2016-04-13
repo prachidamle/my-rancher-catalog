@@ -1,0 +1,12 @@
+external-lb:
+  image: prachidamle/external-lb:v0.1.0
+  command: -debug -provider=f5_BigIP
+  expose: 
+   - 1000
+  environment:
+    F5_BIGIP_HOST: 52.9.84.238
+    F5_BIGIP_USER: f5_admin
+    F5_BIGIP_PWD: f5_pwd
+    CATTLE_URL: http://104.197.91.217:8080/v1
+    CATTLE_ACCESS_KEY: E4482CD1A188378DEFF2
+    CATTLE_SECRET_KEY: mcxvHu79pFDdHN7YJuWuDi1qgXQu1D7RYacNrbd2
