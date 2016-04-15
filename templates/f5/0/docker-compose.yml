@@ -1,5 +1,5 @@
 external-lb:
-  image: prachidamle/external-lb:v0.1.0
+  image: prachidamle/external-lb:v0.2.0
   command: -debug -provider=f5_BigIP
   expose: 
    - 1000
