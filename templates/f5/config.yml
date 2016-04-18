@@ -1,5 +1,5 @@
 name: f5 BigIP LB
 description: |
   Rancher External LB service powered by f5 BigIP
-version: v0.2.0-rancher1
+version: v0.1.0-rancher1
 category: Rancher Services
