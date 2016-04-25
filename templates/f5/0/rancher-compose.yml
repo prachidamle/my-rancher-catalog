@@ -18,6 +18,12 @@
       description: “Password of the F5 admin“
       type: "string"
       required: true
+    - variable: "LB_TARGET_RANCHER_SUFFIX"
+      label: "LB TARGET’s RANCHER SUFFIX"
+      description: “A suffix to add to the LB targets to identify the Rancher-added records“
+      type: "string"
+      required: true
+      default: “_rancher.internal”
 external-lb:
   health_check:
     port: 1000

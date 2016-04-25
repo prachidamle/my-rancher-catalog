@@ -1,5 +1,5 @@
 external-lb:
-  image: prachidamle/external-lb:v0.1.0
+  image: rancher/external-lb:v0.1.0
   command: -debug -provider=f5_BigIP
   expose: 
    - 1000
@@ -7,3 +7,4 @@ external-lb:
     F5_BIGIP_HOST: ${F5_BIGIP_HOST}
     F5_BIGIP_USER: ${F5_BIGIP_USER}
     F5_BIGIP_PWD: ${F5_BIGIP_PWD}
+    LB_TARGET_RANCHER_SUFFIX: ${LB_TARGET_RANCHER_SUFFIX}
