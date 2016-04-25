@@ -23,7 +23,7 @@
       description: “A suffix to add to the LB targets to identify the Rancher-added records“
       type: "string"
       required: true
-      default: “_rancher.internal”
+      default: _rancher.internal
 external-lb:
   health_check:
     port: 1000
