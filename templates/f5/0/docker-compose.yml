@@ -1,5 +1,5 @@
 external-lb:
-  image: rancher/external-lb:v0.1.0
+  image: rancher/external-lb:v0.1.1
   command: -debug -provider=f5_BigIP
   expose: 
    - 1000
