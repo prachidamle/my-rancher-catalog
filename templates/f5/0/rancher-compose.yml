@@ -19,7 +19,7 @@
       type: "string"
       required: true
     - variable: "LB_TARGET_RANCHER_SUFFIX"
-      label: "LB TARGET’s RANCHER SUFFIX"
+      label: "LB TARGET RANCHER SUFFIX"
       description: "A suffix to add to the LB targets to identify the Rancher-added records"
       type: "string"
       required: true
