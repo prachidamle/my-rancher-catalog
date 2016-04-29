@@ -1,26 +1,26 @@
 .catalog:
-  name: “F5 LB”
+  name: "F5 LB"
   version: "v0.1.0-rancher1"
   description: "Rancher External LB service powered by F5 BigIP."
   questions:
     - variable: "F5_BIGIP_HOST"
       label: "F5 BIGIP HOST"
-      description: “Address of the F5 Host”
+      description: "Address of the F5 Host"
       type: "string"
       required: true
     - variable: "F5_BIGIP_USER"
       label: "F5 BIGIP USER"
-      description: “Username of the F5 admin”
+      description: "Username of the F5 admin"
       type: "string"
       required: true
     - variable: "F5_BIGIP_PWD"
       label: "F5 BIGIP PWD"
-      description: “Password of the F5 admin“
+      description: "Password of the F5 admin"
       type: "string"
       required: true
     - variable: "LB_TARGET_RANCHER_SUFFIX"
       label: "LB TARGET’s RANCHER SUFFIX"
-      description: “A suffix to add to the LB targets to identify the Rancher-added records“
+      description: "A suffix to add to the LB targets to identify the Rancher-added records"
       type: "string"
       required: true
       default: rancher.internal
