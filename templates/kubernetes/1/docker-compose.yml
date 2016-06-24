@@ -89,7 +89,6 @@ kubernetes:
     labels:
         io.rancher.container.create_agent: "true"
         io.rancher.container.agent.role: environmentAdmin
-        io.rancher.container.requested_ip: 10.42.133.222
     command: 
         - kube-apiserver
         - --service-cluster-ip-range=10.43.0.0/16
@@ -102,7 +101,6 @@ kubernetes:
         - --client-ca-file=/etc/kubernetes/ssl/ca.pem
         - --tls-cert-file=/etc/kubernetes/ssl/cert.pem
         - --tls-private-key-file=/etc/kubernetes/ssl/key.pem
-        - --advertise-address=10.42.133.222
     image: prachidamle/k8s:dev
     links:
         - etcd
