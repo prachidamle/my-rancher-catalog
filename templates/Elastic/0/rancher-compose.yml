@@ -22,5 +22,5 @@ myService:
     options:
      - option1
      - option2
- outputs:
+ output:
   - url: http://${stack["mycoolservice"].fqdn}:8080
