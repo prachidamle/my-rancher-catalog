@@ -25,20 +25,12 @@
       type: "string"
       default: "%{{service_name}}.%{{stack_name}}.%{{environment_name}}"
       required: false
-    - variable: "HEALTH_CHECK"
-      label: "Health Check Interval"
-      description: |
-        The health check interval for this service, in milliseconds.
-        Raise this value if the global requests for your account are exceeding the Route53 API rate limits.
-      type: "int"
-      min: 2000
-      max: 60000
-      default: 10000
-      required: true
-
 publicdns:
   scale: 1
   start_on_create: true 
+
+
+
 
 
 
