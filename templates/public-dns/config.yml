@@ -1,0 +1,5 @@
+name: Public DNS
+description: |
+  Rancher External DNS service powered by Rancher Public DNS service using Amazon Route53
+version: v0.1.0-rancher1
+category: Rancher Services
