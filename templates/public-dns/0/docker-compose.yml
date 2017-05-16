@@ -1,5 +1,5 @@
 publicdns:
-  image: rancher/external-dns:e480a56-dirty
+  image: prachidamle/external-dns:v0.11.0
   command:
    - -debug=true
    - -provider=rancher-public-dns
