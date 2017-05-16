@@ -3,7 +3,7 @@
   version: "v0.1.0-rancher1"
   description: "Rancher External DNS service powered by Rancher Public DNS using Amazon Route53. Requires Rancher version v1.1.0"
   minimum_rancher_version: v1.1.0
-  maximum_rancher_version: v1.1.99
+  maximum_rancher_version: v1.9.99
   questions:
     - variable: "RANCHER_PUBLIC_DNS_URL"
       label: "RANCHER Public DNS URL"
