@@ -9,7 +9,7 @@ Rancher External DNS service powered by Rancher Public DNS service
     - Name  and Description of the Stack where the external-dns provider is launched
     - Rancher Public DNS URL: This is the URL where the rancher-public-dns service is listening
     - TTL
-    - Custom DNS Name Template if any ['<service>.<stack>.<environment>.<domain>.' by default]
+    - Custom DNS Name Template if any `<service>.<stack>.<environment>.<domain>.` by default]
 
 ##### Limitation when running the service on multiple Rancher servers
 
