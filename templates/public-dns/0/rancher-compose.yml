@@ -16,15 +16,7 @@
       type: "int"
       default: 60
       required: false
-    - variable: "NAME_TEMPLATE"
-      label: "DNS Name Template"
-      description: |
-        Name template used to construct the subdomain part (left of the hosted zone name) of the DNS record names.
-        Supported placeholders: %{{service_name}}, %{{stack_name}}, %{{environment_name}}.
-        By default DNS entries will be named '<service>.<stack>.<environment>.<domain>'.
-      type: "string"
-      default: "%{{service_name}}.%{{stack_name}}.%{{environment_name}}"
-      required: false
+
 publicdns:
   scale: 1
   start_on_create: true 
